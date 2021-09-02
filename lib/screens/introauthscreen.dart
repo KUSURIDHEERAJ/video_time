@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
 import 'package:introduction_screen/introduction_screen.dart';
-//import 'package:video_time/screens/navigate_auth_screen.dart';
+import 'package:video_time/authentication/navigateauthscreen.dart';
 import 'package:video_time/variables.dart';
 
 class IntroductionAuthScreen extends StatefulWidget {
@@ -35,18 +35,18 @@ class _IntroductionAuthScreenState extends State<IntroductionAuthScreen> {
             titleTextStyle: montserratStyle(20, Colors.black),
           ),
           image: Center(
-            child: Image.asset('images/welcome.png', height: 175),
+            child: Image.asset('images/conference.png', height: 175),
           ),
         ),
         PageViewModel(
           title: "Privacy",
-          body: "We Respect your Privacy",
+          body: "We Respect your Privacy. Your security is important for us",
           decoration: PageDecoration(
             bodyTextStyle: ralewayStyle(20, Colors.black),
             titleTextStyle: montserratStyle(20, Colors.black),
           ),
           image: Center(
-            child: Image.asset('images/welcome.png', height: 175),
+            child: Image.asset('images/secure.jpg', height: 175),
           ),
         ),
       ],

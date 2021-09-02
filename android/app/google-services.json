@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "247829954031",
+    "project_id": "videotime-7c5dc",
+    "storage_bucket": "videotime-7c5dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247829954031:android:41c2b51c9f91be48b90a1a",
+        "android_client_info": {
+          "package_name": "com.video_time"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247829954031-s2u3p5jscini7vd86idhghk036psi3hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZH4mh7Hdv2t_XWFJPKLXh2DwuWG0yQL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247829954031-s2u3p5jscini7vd86idhghk036psi3hv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

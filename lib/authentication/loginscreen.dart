@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
 import 'package:video_time/variables.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_gradient_colors/flutter_gradient_colors.dart';

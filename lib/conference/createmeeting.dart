@@ -3,14 +3,14 @@ import 'package:flutter_gradient_colors/flutter_gradient_colors.dart';
 import 'package:uuid/uuid.dart';
 import 'package:video_time/variables.dart';
 
-class CreateMeeetingScreen extends StatefulWidget {
+class CreateMeetingScreen extends StatefulWidget {
   //const CreateMeeetingScreen({ Key? key }) : super(key: key);
 
   @override
-  _CreateMeeetingScreenState createState() => _CreateMeeetingScreenState();
+  _CreateMeetingScreenState createState() => _CreateMeetingScreenState();
 }
 
-class _CreateMeeetingScreenState extends State<CreateMeeetingScreen> {
+class _CreateMeetingScreenState extends State<CreateMeetingScreen> {
   String code = "";
   var isVis = false;
 
@@ -30,7 +30,7 @@ class _CreateMeeetingScreenState extends State<CreateMeeetingScreen> {
           Container(
             margin: EdgeInsets.only(top: 20),
             child: Text(
-              "Create a code to create a meeting!",
+              "Create a code and share it with your friends!",
               style: montserratStyle(20),
               textAlign: TextAlign.center,
             ),

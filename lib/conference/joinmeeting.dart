@@ -4,7 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import "package:flutter/material.dart";
 import 'package:flutter_gradient_colors/flutter_gradient_colors.dart';
-import 'package:jitsi_meet/feature_flag/feature_flag_enum.dart';
+//import 'package:jitsi_meet/feature_flag/feature_flag_enum.dart';
 import 'package:jitsi_meet_platform_interface/feature_flag/feature_flag_enum.dart';
 import 'package:jitsi_meet/jitsi_meet.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
@@ -60,7 +60,7 @@ class _JoinMeetingScreenState extends State<JoinMeetingScreen> {
 
       await JitsiMeet.joinMeeting(options);
     } catch (err) {
-      print(err);
+      print("Error :$err");
     }
   }
 

@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
+import 'package:video_time/conference/createmeeting.dart';
+import 'package:video_time/conference/joinmeeting.dart';
 import 'package:video_time/variables.dart';
-import 'superman';
 
 class MeetingScreen extends StatefulWidget {
   // const MeetingScreen({ Key? key }) : super(key: key);
@@ -9,7 +10,7 @@ class MeetingScreen extends StatefulWidget {
   _MeetingScreenState createState() => _MeetingScreenState();
 }
 
-class _MeetingScreenState extends State<MeetingScreen> {
+class _MeetingScreenState extends State<MeetingScreen>
     with SingleTickerProviderStateMixin {
   TabController tabController;
   tabBuilder(String name) {
@@ -41,7 +42,7 @@ class _MeetingScreenState extends State<MeetingScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Zoom Clone",
+          "Video Time",
           style: ralewayStyle(20, Colors.white),
         ),
         centerTitle: true,
@@ -63,5 +64,4 @@ class _MeetingScreenState extends State<MeetingScreen> {
       ),
     );
   }
-}
 }

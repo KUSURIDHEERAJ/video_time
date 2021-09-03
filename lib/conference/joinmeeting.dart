@@ -1,11 +1,8 @@
 import 'dart:io';
-
+import 'package:flutter_gradient_colors/flutter_gradient_colors.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import "package:flutter/material.dart";
-import 'package:flutter_gradient_colors/flutter_gradient_colors.dart';
-//import 'package:jitsi_meet/feature_flag/feature_flag_enum.dart';
-import 'package:jitsi_meet_platform_interface/feature_flag/feature_flag_enum.dart';
 import 'package:jitsi_meet/jitsi_meet.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:video_time/variables.dart';
@@ -51,7 +48,7 @@ class _JoinMeetingScreenState extends State<JoinMeetingScreen> {
         featureeFlags[FeatureFlagEnum.PIP_ENABLED] = false;
       }
 
-      var options = JitsiMeetingOptions()
+      var options = JitsiMeetingOptions(room: '')
         ..room = roomController.text // Required, spaces will be trimmed
         ..userDisplayName = _controller.text == "" ? username : _controller.text
         ..audioMuted = isAudioMuted
